@@ -12,6 +12,11 @@ namespace SmoothOperator
 
             Console.WriteLine(--m);
             Console.WriteLine(++m);
+        
+            Console.WriteLine(m / 2);
+            Console.WriteLine(m << 3);
+            Console.WriteLine(m ^ 5);
+            Console.WriteLine(m > 10);
         }
     }
 }

@@ -27,7 +27,8 @@ namespace ValoresEspeciais
             uint i = uint.MaxValue;
             Console.WriteLine((uint)(i + 1));
 
-            
+            float y1 = 2 * float.MaxValue;
+            float y2 = float.MaxValue + 1;
 
         }
     }

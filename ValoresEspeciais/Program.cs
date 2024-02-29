@@ -24,6 +24,11 @@ namespace ValoresEspeciais
             Console WriteLine($"Menos infinito:{float.NegativeInfinity}");
             Console WriteLine($"NaN:{float.NaN}");
 
+            uint i = uint.MaxValue;
+            Console.WriteLine((uint)(i + 1));
+
+            
+
         }
     }
 }

@@ -30,6 +30,10 @@ namespace ValoresEspeciais
             float y1 = 2 * float.MaxValue;
             float y2 = float.MaxValue + 1;
 
+            float x1 , x2 ;
+            x1 = x2 = 10000.0f;
+            Console.WriteLine(f1 == f2 + 0.0001f); 
+
         }
     }
 }

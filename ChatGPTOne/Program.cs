@@ -29,6 +29,13 @@ namespace ChatGPTOne
                 case "40+50?":
                     response = "90";
                     break;
+                
+                //Se o utilizador pede para sair o chat responde isto
+                case "Exit":
+                    response= "Bye! Have a good day";
+                    break;
+    
+                //Quando o chat nao reconhece a pergunta
                 default:
                     response = "My systems failed..ask me another question";
                     break;
